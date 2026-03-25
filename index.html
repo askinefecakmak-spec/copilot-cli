@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bil Ve Geç - Çocuk Oyun Sitesi</title>
+    <style>
+        :root {
+            --primary-color: #ff6b6b;
+            --water-color: #48dbfb;
+            --land-color: #1dd1a1;
+            --text-color: #2d3436;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f1e3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            color: var(--text-color);
+        }
+
+        #game-container {
+            width: 100%;
+            max-width: 800px;
+            height: 600px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            position: relative;
+            text-align: center;
+            border: 8px solid #feca57;
+        }
+
+        /* Giriş Ekranı ve Logo */
+        #start-screen {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            z-index: 10;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(45deg, #ff9f43, #ff6b6b);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 80px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(255,107,107,0.4);
+            border: 5px solid white;
+        }
+
+        button {
+            padding: 20px 50px;
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+            background-color: var(--land-color);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.2s;
+            box-shadow: 0 5px 0 #10ac84;
+        }
+
+        button:hover { transform: scale(1.1); }
+        button:active { transform: translateY(4
+            
